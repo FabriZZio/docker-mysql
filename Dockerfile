@@ -12,8 +12,6 @@ RUN chown -R mysql.mysql /var/log/mysql
 
 USER mysql
 
-RUN apt-get clean -y
-
 ADD start.sh start.sh
 
 EXPOSE 3306
